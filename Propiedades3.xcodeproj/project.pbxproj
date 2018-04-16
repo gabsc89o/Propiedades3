@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AA4A91D62084FE4800CA739F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4A91D52084FE4800CA739F /* main.m */; };
+		AA4A91DE2084FEBE00CA739F /* Cliente.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4A91DD2084FEBE00CA739F /* Cliente.m */; };
+		AA4A91E12084FF7100CA739F /* Persona.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4A91E02084FF7100CA739F /* Persona.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		AA4A91D22084FE4800CA739F /* Propiedades3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Propiedades3; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4A91D52084FE4800CA739F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA4A91DC2084FEBE00CA739F /* Cliente.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cliente.h; sourceTree = "<group>"; };
+		AA4A91DD2084FEBE00CA739F /* Cliente.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cliente.m; sourceTree = "<group>"; };
+		AA4A91DF2084FF7100CA739F /* Persona.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Persona.h; sourceTree = "<group>"; };
+		AA4A91E02084FF7100CA739F /* Persona.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Persona.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				AA4A91D52084FE4800CA739F /* main.m */,
+				AA4A91DC2084FEBE00CA739F /* Cliente.h */,
+				AA4A91DD2084FEBE00CA739F /* Cliente.m */,
+				AA4A91DF2084FF7100CA739F /* Persona.h */,
+				AA4A91E02084FF7100CA739F /* Persona.m */,
 			);
 			path = Propiedades3;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4A91E12084FF7100CA739F /* Persona.m in Sources */,
+				AA4A91DE2084FEBE00CA739F /* Cliente.m in Sources */,
 				AA4A91D62084FE4800CA739F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
