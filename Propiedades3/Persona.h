@@ -10,11 +10,16 @@
 
 @interface Persona : NSObject
 
-@property int codigo;
+@property (readonly) int codigo;
 @property NSString *nombre;
 @property NSString *direccion;
-@property long telefono;
-@property char letra;
-@property BOOL activo;
+@property NSString *telefono;
+@property NSString *dni;
+
+-(id) initConCodigo:(int) codigo
+           telefono:(NSString *) telefono
+              dni:(NSString *) dni
+             nombre:(NSString *) nombre
+         YDireccion:(NSString *) direccion;
 
 @end
