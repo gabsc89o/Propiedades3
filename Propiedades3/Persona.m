@@ -14,7 +14,8 @@
     if (self = [super init]) {
         _codigo=codigo;
         _numTelefono=telefono;
-        _nombre=nombre;
+        self.nombre=nombre;
+        //_nombre= [nombre capitalizedString];
         _direccion=direccion;
         _dni=dni;
     }
