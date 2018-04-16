@@ -9,11 +9,11 @@
 #import "Persona.h"
 
 @implementation Persona
-
--(id) initConCodigo:(int)codigo nombre:(NSString *)nombre YDireccion:(NSString *)direccion telefono:(NSString *)telefono dni:(NSString *)dni{
+@synthesize telefono=_numTelefono, nombre=_nombre;
+-(id) initConCodigo:(int)codigo telefono:(NSString *)telefono dni:(NSString *)dni nombre:(NSString *)nombre YDireccion:(NSString *)direccion{
     if (self = [super init]) {
         _codigo=codigo;
-        _telefono=telefono;
+        _numTelefono=telefono;
         _nombre=nombre;
         _direccion=direccion;
         _dni=dni;
@@ -21,5 +21,10 @@
     return self;
 }
 
-
+-(NSString *) nombre{
+    return _nombre;
+}
+-(void) setNombre:(NSString *) nombre{
+    _nombre=[nombre uppercaseString];
+}
 @end

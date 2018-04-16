@@ -9,7 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface Persona : NSObject
-
+{
+    NSString *_numTelefono;
+}
 @property (readonly) int codigo;
 @property NSString *nombre;
 @property NSString *direccion;
